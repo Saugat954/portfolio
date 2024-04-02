@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    background-color:rgba(94, 94, 94, 0.753);  
+    font-family: 'truculenta', sans-serif;
+    height: 100vh;
+   transition: 0.3s all ease;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a {
+   text-decoration: none;
+   color: black;
+}
+
+
+.main {
+    /* background-color: yellow; */
+    width: 88vw;
+
+}
+
+.container {
+    display: flex;
+}
+.infoContainer{
+    /* background-color: rgb(217, 19, 187); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', sans-serif;
+    padding: 20px;
+    
+}
+.hello{
+    font-size: 75px;
+
+}
+.name{
+    font-size: 65px;
+    font-family: 'truculenta', sans-serif;
+    font-weight: 700;
+}
+.about{
+    font-size: 50px;
+}
+.moreabout{
+    font-size: 22px;
+    font-family: 'truculenta', sans-serif;
+    margin-top: 23px;
+}
+.buttons{
+    margin: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 22px;
+    margin:0 3px;
+    cursor: pointer;
+
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.buttons  .btn a{
+    text-decoration: none;
+    color: white;
+     
+     
+}
+.buttons  .btn a:hover{
+    color:dodgerblue;
+    color: #000;
+}
+    
+.btn:hover{
+    color: white;
+    background-color: dodgerblue;
+}
+.devPic img{
+   height: 58vh;
+   border-radius: 150px;
+}
+.contactform{
+    font-family: 'truculenta', sans-serif;
+    padding: 0 10px;
+    padding-top: 144px;
+    margin-left: 50px;
+     
+
+}
+.contactform h1{
+    font-family: 'Source Code Pro', sans-serif;
+     padding: 12px 0;
+}
+.contactform  form div{
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 5px 0 0 0;
+    padding: 5px;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+    
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogcontainer{
+    margin: 80px 40px;
+
+}
+.blogitem{
+    font-family: 'truculenta', sans-serif;
+    margin: 20px;
+}
+
+  h1{
+    font-family: 'truculenta', sans-serif;
+    margin: 23px;
+}
+  p{
+    font-family: 'Source Code Pro', sans-serif;
+}
+.intro{
+    margin: 80px 40px;
+}
+
+.intro h2{
+    font-family: 'truculenta', sans-serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Source Code Pro', sans-serif;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.skill{
+width: 265px;
+height: 6px;
+background-color: red;
+
+}
+
+.htmlskill{
+    width: 400px;
+}
+.cssskill{
+    width: 350px;
+}
+.javascriptskill{
+    width: 100px;
+}
+.phpskill{
+    width: 10px;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left :10px;
+}
+.cross{
+    margin-left: 160px;
+     
+}
+
+@media screen and (max-width: 1500px) {
+   .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+   }
+  }
